@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 import useCookie from "react-use-cookie";
 import useUserStore from "../../../stores/useUserStore";
 import Header from "./Header";
-import PageLoading from "../../../components/PageLoading";
+import PageLoading from "../../../Components/PageLoading";
 
 const DashboardLayout = () => {
   const [token] = useCookie("my_token");
