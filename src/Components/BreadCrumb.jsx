@@ -1,6 +1,6 @@
 import React from "react";
 import { HiChevronRight, HiHome, HiMiniHome } from "react-icons/hi2";
-import { LuChevronLeft, LuChevronRight, LuHome } from "react-icons/lu";
+import { LuChevronLeft, LuChevronRight, LuChrome, LuHome } from "react-icons/lu";
 import { Link, useNavigate } from "react-router-dom";
 
 const BreadCrumb = ({ currentPageTitle, links }) => {
@@ -16,7 +16,7 @@ const BreadCrumb = ({ currentPageTitle, links }) => {
               to="/dashboard"
               className="inline-flex gap-1 items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white"
             >
-              <LuHome />
+              <LuChrome/>
               Home
             </Link>
           </li>
