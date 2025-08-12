@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import PageLoading from "../../../components/PageLoading";
+import PageLoading from "../../../Components/PageLoading";
 
 const PublicLayout = () => {
   return (
